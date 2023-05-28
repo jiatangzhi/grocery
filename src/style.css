@@ -3,7 +3,7 @@
 :root {
   --orange: #ff7800;
   --black: #130f40;
-  --light: #666;
+  --light-color: #666;
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   --border: 0.5rem solid rgba(0, 0, 0, 0.1);
   --outline: 0.5rem solid rgba(0, 0, 0, 0.1);
@@ -450,3 +450,39 @@ section {
   color: var(--orange);
 }
 /*--------product section ends--------*/
+
+/*--------categories section begins--------*/
+.categories .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.categories .box-container .box {
+  padding: 3rem 2rem;
+  background: #fff;
+  outline: var(--outline);
+  outline-offset: -1rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+.categories .box-container .box:hover {
+  outline: var(--outline-hover);
+  outline-offset: 0rem;
+}
+.categories .box-container .box img {
+  margin: 1rem;
+  height: 15rem;
+}
+.categories .box-container .box h3 {
+  font-size: 2rem;
+  line-height: 1.8;
+  color: var(--black);
+}
+.categories .box-container .box p {
+  font-size: 1.5rem;
+  opacity: 1;
+  line-height: 1.8;
+  color: var(--light-color);
+  padding: 1rem;
+}
+/*--------categories section ends--------*/
