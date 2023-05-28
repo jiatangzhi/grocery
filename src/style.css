@@ -290,53 +290,48 @@ section {
 /*--------header section ends--------*/
 
 /*--------home section begins--------*/
-.home{
-    display: flex;
-    align-items: center;
-    background: url(../images/background.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 17rem;
-    padding-bottom: 20rem;
-
+.home {
+  display: flex;
+  align-items: center;
+  background: url(../images/background.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 17rem;
+  padding-bottom: 20rem;
 }
-.home .content{
-   text-align: center; 
-   width: 60rem;
-
+.home .content {
+  text-align: center;
+  width: 60rem;
 }
-.home .content h3{
+.home .content h3 {
   color: var(--black);
-  font-size: 3rem;  
+  font-size: 3rem;
   position: absolute;
   top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.home .content h3 span{
+.home .content h3 span {
   color: var(--orange);
-  font-size: 3rem; 
+  font-size: 3rem;
   position: absolute;
   top: 15%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
 }
-.home .content p{
+.home .content p {
   color: var(--light-color);
-  font-size: 1.7rem;  
+  font-size: 1.7rem;
   padding: 3rem 0;
   line-height: 1.8rem;
   position: absolute;
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-
 }
 
-
-.content .shop{
-    /*margin-top: 17rem;
+.content .shop {
+  /*margin-top: 17rem;
     padding: .8rem 3rem;
     font-size: 1.7rem;
     display: inline block;
@@ -352,14 +347,69 @@ section {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: white;
-  color:var(--black);
+  color: var(--black);
   font-size: 16px;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
 }
-.content .shop:hover{
-    background: var(--orange);
-    color: #fff;
+.content .shop:hover {
+  background: var(--orange);
+  color: #fff;
 }
+
+/*--------feature section begins--------*/
+.heading{
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+
+}
+.heading span{
+    background: var(--orange);
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+    color:#fff;
+}
+.heading{
+    font-size: 2.5rem;
+}
+.feature .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+.feature .box-container .box{
+    padding: 3rem 2rem;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.feature .box-container .box:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+.feature .box-container .box img{
+    margin: 1rem;
+    height: 15rem;
+
+}
+.feature .box-container .box h3{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: var(--black);
+
+}
+.feature .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+    padding: 1rem;
+}
+/*--------feature section ends--------*/
