@@ -326,6 +326,7 @@ section {
 }
 .home .content {
   text-align: center;
+  line-height: 3;
   width: 60rem;
 }
 .home .content h3 {
@@ -336,7 +337,7 @@ section {
 .home .content p {
   font-size: 2rem;
   padding: 1rem 0;
-  line-height: 1.8rem;
+  line-height: 3rem;
   margin: 2rem;
   color: #fff;
 }
@@ -422,34 +423,32 @@ section {
 /*--------feature section ends--------*/
 
 /*--------product section begins--------*/
-.products .product-slider {
-}
 .products .product-slider:first-child {
   margin-bottom: 2rem;
 }
-.products .product-slider .box {
+.products .Product-slider .box {
   border-radius: 1rem;
   text-align: center;
-  border-radius: 0.5rem;
   padding: 3rem;
   background: #fff;
+  margin-bottom: 2rem;
   outline-offset: -1rem;
   transition: 0.2s linear;
   outline: var(--outline);
 }
-.products .product-slider .box:hover {
-  outline-offset: 0rem;
+.products .Product-slider .box:hover {
   outline: var(--outline-hover);
+  outline-offset: -1rem;
 }
-.products .product-slider img {
+.products .Product-slider img {
   width: 100%;
   height: 20rem;
 }
-.products .product-slider .box h4 {
+.products .Product-slider .box h4 {
   font-size: 2.5rem;
   color: var(--black);
 }
-.products .product-slider .box .prices {
+.products .Product-slider .box .prices {
   font-size: 2rem;
   color: var(--light-color);
   padding: 0.5rem 0;
