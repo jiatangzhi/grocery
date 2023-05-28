@@ -43,7 +43,7 @@ var swiper = new Swiper(".Product-slider", {
   loop: true,
   spaceBetween: 20,
   autoplay: {
-    delay: 7500,
+    delay: 5500,
     disableOnInteraction: false,
   },
   breakpoints: {
@@ -62,7 +62,7 @@ var swiper = new Swiper(".review-slider", {
   loop: true,
   spaceBetween: 20,
   autoplay: {
-    delay: 7500,
+    delay: 4500,
     disableOnInteraction: false,
   },
   breakpoints: {

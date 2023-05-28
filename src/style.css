@@ -40,14 +40,15 @@ section {
   border-radius: 1rem;
   width: 20rem;
   border: 0.2rem solid var(--black);
-
+  background: var(--orange);
   display: inline block;
   color: var(--black);
   cursor: pointer;
   display: center;
+  text-decoration: none;
 }
 .btn:hover {
-  background: var(--orange);
+  background: var(--black);
   color: #fff;
 }
 
@@ -421,12 +422,12 @@ section {
 /*--------feature section ends--------*/
 
 /*--------product section begins--------*/
-.products .Product-slider {
+.products .product-slider {
 }
-.products .Product-slider:first-child {
+.products .product-slider:first-child {
   margin-bottom: 2rem;
 }
-.products .Product-slider .box {
+.products .product-slider .box {
   border-radius: 1rem;
   text-align: center;
   border-radius: 0.5rem;
@@ -436,19 +437,19 @@ section {
   transition: 0.2s linear;
   outline: var(--outline);
 }
-.products .Product-slider .box:hover {
+.products .product-slider .box:hover {
   outline-offset: 0rem;
   outline: var(--outline-hover);
 }
-.products .Product-slider img {
+.products .product-slider img {
   width: 100%;
   height: 20rem;
 }
-.products .Product-slider .box h4 {
+.products .product-slider .box h4 {
   font-size: 2.5rem;
   color: var(--black);
 }
-.products .Product-slider .box .prices {
+.products .product-slider .box .prices {
   font-size: 2rem;
   color: var(--light-color);
   padding: 0.5rem 0;
@@ -588,3 +589,88 @@ section {
   padding: 1rem;
 }
 /*--------blog section ends----------*/
+
+/*--------footer section begins------*/
+.footer {
+  background: #fff;
+}
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  gap: 1.5rem;
+}
+.footer .box-container .box h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+.footer .box-container .box i {
+  color: var(--orange);
+}
+.footer .box-container .box .links {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+  text-transform: inherit;
+  text-decoration: none;
+}
+.footer .box-container .box .links i {
+  color: var(--orange);
+  padding-right: 0.5rem;
+}
+.footer .box-container .box .links:hover i {
+  padding-right: 2rem;
+}
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+  line-height: 1.8rem;
+  margin-bottom: 1rem;
+}
+.footer .box-container .box .social-media a {
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  color: var(--black);
+  margin-left: 0.5rem;
+  text-align: center;
+  background: #eee;
+  padding: 2rem;
+  border-radius: 50%;
+}
+.footer .box-container .box .social-media a:hover {
+  background: #fff;
+}
+.footer .box-container .box .payment-image img {
+  margin-top: 2rem;
+  width: 100%;
+  border-radius: 1rem;
+}
+.footer .box-container .box .email {
+  background: lightgray;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.source {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 2rem 1rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+  padding-top: 2.5rem;
+  border-top: var(--border);
+  color: var(--black);
+  background: #fff;
+}
+.source a {
+  text-decoration: none;
+  color: var(--black);
+}
+.source a:hover {
+  color: var(--orange);
+}
+/*--------footer section ends--------*/
