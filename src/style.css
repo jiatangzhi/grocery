@@ -486,3 +486,43 @@ section {
   padding: 1rem;
 }
 /*--------categories section ends--------*/
+
+/*--------review section begins--------*/
+.reviews .review-slider:first-child{
+   margin-bottom: 2rem;
+
+}
+.reviews .review-slider .box{
+    border-radius: 1rem;
+    text-align: center;
+    border-radius: .5rem;
+    padding: 3rem;
+    background: #fff;
+    outline-offset: -1rem;
+    transition: .2s linear;
+    outline: var(--outline); 
+}
+.reviews .review-slider .box:hover{
+  outline-offset: 0rem;
+  outline: var(--outline-hover);
+}
+.reviews .review-slider img{
+    width: 10rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.reviews .review-slider .box h4{
+  font-size: 2.5rem;
+  color:var(--black);
+}
+.reviews .review-slider .box p{
+  font-size: 2rem;
+  color:var(--light-color);
+  padding: .5rem 0;
+}
+.reviews .star{
+    padding-bottom: 3rem;
+    display: center;
+    color: var(--orange);
+}
+/*--------review section ends--------*/
