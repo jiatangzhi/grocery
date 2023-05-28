@@ -15,7 +15,6 @@ document.querySelector(`#cart-btn`).onclick = () => {
   loginForm.classList.remove(`active`);
   navbar.classList.remove(`active`);
 };
-
 let loginForm = document.querySelector(`.login-form`);
 
 document.querySelector(`#login-btn`).onclick = () => {
@@ -33,7 +32,6 @@ document.querySelector(`#menu-btn`).onclick = () => {
   shoppingCart.classList.remove(`active`);
   loginForm.classList.remove(`active`);
 };
-
 window.onscroll = () => {
   searchForm.classList.remove(`active`);
   shoppingCart.classList.remove(`active`);
@@ -60,7 +58,6 @@ var swiper = new Swiper(".Product-slider", {
     },
   },
 });
-
 var swiper = new Swiper(".review-slider", {
   loop: true,
   spaceBetween: 20,
