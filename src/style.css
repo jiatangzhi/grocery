@@ -511,7 +511,7 @@ section {
   outline: var(--outline);
 }
 .reviews .review-slider .box:hover {
-  outline-offset: 0rem;
+  outline-offset: -1rem;
   outline: var(--outline-hover);
 }
 .reviews .review-slider img {
